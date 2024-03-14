@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 4px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+header,.introduction{
+   background-color: rgb(25, 40, 71); 
+   color: white;
+   padding: 10%;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-top: 0%;
+    gap: 20%;  
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+
+}
+
+.intro-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signup-bottom{
+    background-color: RGB(36,160,237);
+    border-radius: 4px;
+    padding: 2px;
+    text-align: center;
+    width: 30%;
+}
+
+.intro-img{
+    width: 80%;
+    height: auto;
+}
+
+ 
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.info-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
+    gap: 7%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.info-img{
+    border: 3px solid RGB(36,160,237);
+    width: 90%;
+    aspect-ratio : 1 / 1;
+    border-radius: 6px;
+    flex: auto;
+}
+.info-text{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 232, 247);
+    padding: 10% 20%;
+    gap: 15%;
+    font-size: 17px;
+}
+
+.author{
+    font-style: italic;
+    font-weight: bold;
+    text-align: end;
+    padding-top: 4%;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 7%;
+    background-color: RGB(36,160,237);
+    color: white;
+    padding: 3% 12%;
+}
+
+.banner-text-1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.banner .signup-bottom{
+    border:1px solid white;
+    padding: 2px;
+    margin: 0;
+    aspect-ratio : 5 / 1;
+
+}
+
+footer{
+    text-align: center;
+}
